@@ -2,16 +2,27 @@ import React from 'react';
 import ReactLogo from '/reactjs.svg';
 import TailwindLogo from '/tailwind.svg';
 import ProjectImage from '/Project1.png';
-
+import Project2 from '/Project2.png';
+import Nodelogo from '/nodejs.svg';
+import PrismaLogo from '/prisma.svg'
+import Postgres from '/postgresql.svg'
+import Express from '/expressmain.webp'
 
 const projects = [
   {
     title: 'To-do',
     image: ProjectImage,
     techs: [TailwindLogo, ReactLogo],
-    link: 'https://project-one.com',
+    link: 'https://alok-todo.vercel.app/',
     github:'https://github.com/Al0kKumar/To-do'
   },
+  {
+    title:'Wallet',
+    image: Project2,
+    techs:[ReactLogo,TailwindLogo,Express,PrismaLogo,Postgres],
+    link: 'https://wallet-op.vercel.app/',
+    github:'https://github.com/Al0kKumar/Wallet'
+  }
  
   // Add more projects as needed
 ];
